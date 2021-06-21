@@ -8,19 +8,22 @@
 
 
 # CPU TDP per Core in Watts
-CPU = {
-    "Intel(R) Xeon(R) CPU           X5570  @ 2.93GHz": 95 / 4,
-    "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz": 115 / 10,
-    "Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz": 85 / 10,
-    "Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz": 125 / 16,
-    "Intel(R) Core(TM) i5-2400S CPU @ 2.50GHz": 65 / 4,
-    "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz": 65 / 4,
-    "Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz": 65 / 6,
-    "Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz": 95 / 6,
-    "AMD Ryzen Threadripper 1950X 16-Core Processor": 180 / 16,
-    "AMD Ryzen Threadripper 3970X 32-Core Processor": 280 / 32,
-    "N/A": 0,
-}
+CPU = {                                                                                                                  
+    "Intel(R) Xeon(R) CPU           X5570  @ 2.93GHz": 95 / 4,                                                           
+    "Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz": 115 / 10,                                                               
+    "Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz": 85 / 10,                                                               
+    "Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz": 125 / 16,                                                                
+    "Intel(R) Core(TM) i5-2400S CPU @ 2.50GHz": 65 / 4,                                                                  
+    "Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz": 77 / 4,                                                                   
+    "Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz": 91 / 4,                                                                  
+    "Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz": 65 / 4,                                                                   
+    "Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz": 65 / 6,                                                                   
+    "Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz": 95 / 6,                                                                  
+    "Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz": 65 / 8,                                                                   
+    "AMD Ryzen Threadripper 1950X 16-Core Processor": 180 / 16,                                                          
+    "AMD Ryzen Threadripper 3970X 32-Core Processor": 280 / 32,                                                          
+    "N/A": 0,                                                                                                            
+} 
 
 # GPU TDP in Watts
 GPU = {
